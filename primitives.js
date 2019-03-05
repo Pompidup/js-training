@@ -14,17 +14,17 @@ const boolean = true
 const undefined
 
 //* Begin of tests
-import { strictEqual } from 'assert';
+const assert = require('assert')
 
-strictEqual(typeof str, 'string')
-strictEqual(str, '1337')
+assert.strictEqual(typeof str, 'string')
+assert.strictEqual(str, '1337')
 
-strictEqual(typeof num, 'number')
-strictEqual(num, 42)
+assert.strictEqual(typeof num, 'number')
+assert.strictEqual(num, 42)
 
-strictEqual(typeof bool, 'boolean')
-strictEqual(bool, false)
+assert.strictEqual(typeof bool, 'boolean')
+assert.strictEqual(bool, false)
 
-strictEqual(typeof undef, 'undefined')
-strictEqual(undef, undefined)
+assert.strictEqual(typeof undef, 'undefined')
+assert.strictEqual(undef, undefined)
 // End of tests */
