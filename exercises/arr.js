@@ -7,9 +7,13 @@
  */
 
 // Your code :
+<<<<<<< HEAD
 
 const arr = ["4","'2'",]
 
+=======
+str arr[]={4,'2'};
+>>>>>>> 6b2105856270845a3bce922601772662a3e3fd31
 //* Begin of tests
 const assert = require('assert')
 
