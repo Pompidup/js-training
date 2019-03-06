@@ -8,6 +8,11 @@
  *
  */
 
+const repeat = (a, b) => {
+  return a.repeat(b);
+}
+
+
 //* Begin of tests
 const assert = require('assert')
 

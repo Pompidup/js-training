@@ -7,7 +7,11 @@
  */
 
 // Your code :
+const concatStr = (a, b) => {
 
+  return (a+b)
+
+}
 //* Begin of tests
 const assert = require('assert')
 
