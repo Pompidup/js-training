@@ -5,7 +5,20 @@
  * and return the total
  *
  */
+// Obj
+let phone = {
+  color:"white",
+  isTactile:true
+};
+phone.color = "red";
+phone.tartampion ="choucroute";
 
+//Function
+
+function addition( param_a, param_b){
+  console.log(param_a + param_b)
+}
+addition(10 , 2)
 
 
 
