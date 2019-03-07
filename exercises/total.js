@@ -8,7 +8,7 @@
 
 
 
-let sum = 0;
+var sum = 0;
 
 function total (arr) {
   for (let i = 0; i < total.length; i++) {
