@@ -11,7 +11,8 @@
 
 const getLast = (a) => {
 
-  return a.slice(-1)[0]
+  //return a.slice(-1)[0]
+  return a[a.length - 1]
 
 }
 //* Begin of tests

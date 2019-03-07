@@ -10,8 +10,7 @@
 // Your code :
 const getLength = (a) => {
 
-
-    return a.length
+  return a.length
 
 }
 //* Begin of tests

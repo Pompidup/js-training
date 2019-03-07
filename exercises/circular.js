@@ -8,9 +8,11 @@
  */
 
 // Your code :
-const circular = {}
+const circular = {
+  circular = circular
+}
 
-circular.circular = circular
+
 
 
 
