@@ -8,16 +8,10 @@
  */
 
 // Your code :
-let circular = {
-  circular: circular = {
-    circular: circular,
-  }
-  };
 
 
-
-
-
+const circular = {};
+circular.circular = circular;
 
 
 

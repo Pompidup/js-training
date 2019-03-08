@@ -7,9 +7,13 @@
  * Of course you may not use the method directly
  *
  */
-
+const str = '';
 function repeat(a, b){
-  return a.repeat(b);
+  for (let index = 0; index < b; index++) {
+     str += str;
+
+  }
+  return (str);
 }
 
 
