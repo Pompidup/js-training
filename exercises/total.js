@@ -8,21 +8,12 @@
 
 
 
-<<<<<<< HEAD
 
 let sum = 0;
 const tot = [];
 function total (tot) {
   for (let i = 0; i < total.length; i++) {
     sum = sum + tot[i];
-=======
-var sum = 0;
-
-function total (arr) {
-  for (let i = 0; i < total.length; i++) {
-    sum = sum + arr[i]
-
->>>>>>> 4718a51053b2792dd105f7f1c07a89c619ef29da
   }
 
 }
