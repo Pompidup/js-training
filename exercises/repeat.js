@@ -8,7 +8,7 @@
  *
  */
 
-const repeat = (a, b) => {
+function repeat(a, b){
   return a.repeat(b);
 }
 

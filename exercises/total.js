@@ -5,31 +5,19 @@
  * and return the total
  *
  */
-// Obj
-let phone = {
-  color:"white",
-  isTactile:true
-};
-phone.color = "red";
-phone.tartampion ="choucroute";
 
-//Function
-
-function addition( param_a, param_b){
-  console.log(param_a + param_b)
-}
-addition(10 , 2)
 
 
 
 let sum = 0;
-
+const tot = [];
 function total (tot) {
   for (let i = 0; i < total.length; i++) {
-    sum += tot[i];
+    sum = sum + tot[i];
   }
-  console.log(sum)
+
 }
+return(sum);
 
 
 
